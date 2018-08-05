@@ -5,10 +5,10 @@
 	<title> San Joaquin Valley Town Hall</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Doing the test...!">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_7_cw.css">
-	<script
-src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<link rel="stylesheet" type="text/css" href="SlickNav/dist/slicknav.css"/>
 	<script src="SlickNav/dist/jquery.slicknav.min.js"></script>
 	</head>
@@ -31,7 +31,9 @@ src="https://code.jquery.com/jquery-3.3.1.js"></script>
 						</ul>
 					</nav>
 					<script>
-						$('#nav_bar1').slicknav({predendTo:"#nav_bar_mobile"});
+						// $(function(){
+							$('#nav_bar1').slicknav({predendTo:"#nav_bar_mobile"});
+						// });
 					</script>
 				</div>
 			</header>
@@ -60,7 +62,7 @@ src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 				<aside>
 					<div>
-						<div class="speakers"><span><p><h2 id="double">Guest speakers</h2></p></span></div>
+						<div class="speakers"><p><h2 id="double">Guest speakers</h2></p></div>
 						<div>
 							<p class="month">October<br/><a target="blank" href="https://en.wikipedia.org/wiki/Jeffrey_Toobin">Jeffrey Toobin</a></p>
 							<img class="spks" src="images/jeff_t.jpg" alt="Jeffrey Toobin" width= 65 height=65>
