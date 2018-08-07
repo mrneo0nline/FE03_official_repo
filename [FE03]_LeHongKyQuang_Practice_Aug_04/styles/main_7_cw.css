@@ -33,6 +33,7 @@ vertical-align: baseline;
 	#nav1, #nav_bar1 {display: none;}
 	.allbodycontent {width: 100%;}
 	header h4 {padding-bottom: 0px;}
+	/* main section article img{width:125px;height:110px;} */
 }
 html{
 	background-color: #ffffff;
@@ -67,12 +68,13 @@ header h1{
 /* } */
 h1,  h3{
 	margin-left: 20px;
-	margin-top: 10px;
+	padding-top: 10px;
 	/* font-weight: bold; */
 }
 header{
 	margin-bottom: 15px;
 	padding: 0em 0em 0em 0em;
+	border-bottom: 2px solid #800000;
 }
 header h4 {
 	padding-top: 0px;
@@ -83,6 +85,7 @@ header h4 {
 	font-size: 120%;
 	color: green;
 }
+header>div.hd{background-image: linear-gradient(to bottom right, white 0%, white 25%, white 50%, #fff888 75%, #fff888 100%);}
 p.n1+h2{
 	font-size: 130%;
 	font-weight: bolder;
