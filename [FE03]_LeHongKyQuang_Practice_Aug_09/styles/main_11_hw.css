@@ -18,7 +18,9 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
-
+sup {
+	font-size: 25%;
+}
 .slicknav_menu{display: none;}
 @media only screen and (max-width: 600px){
 	body main	section, body main aside {width:100%;}
@@ -35,12 +37,14 @@ vertical-align: baseline;
 	header h4 {padding-bottom: 0px;}
 	/* main section article img{width:125px;height:110px;} */
 }
-html{background-color: #ffffff;}
+html{
+	background-color: #ffffff;
+}
 body {
 	height:100%;
 	border: 3px solid #931420;
-	font-family: Arial;
-	font-size: 10pt;
+	font-family: Calibri;
+	font-size: 11pt;
 	margin: 1px auto 10px;
 	background-color: #fffded;
 	width: 95%;
@@ -63,13 +67,13 @@ header h1{
 /* p h1.speakers{
 	border-style: double;
 } */
-h1,  h3{
+h1, h3{
 	margin-left: 20px;
 	padding-top: 10px;
 	/* font-weight: bold; */
 }
 header{
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	padding: 0em 0em 0em 0em;
 	border-bottom: 2px solid #800000;
 }
@@ -131,32 +135,83 @@ p.n1+h2{
 #nav_bar1 ul li a.current{color: yellow;}
 
 main section{
-	width: 55%;
+	width: 60%;
 	/*max-width: 450px;*/
 	float: right;
 	padding-left: 5px;
 	margin-left: 15px;
+	margin-right: 4%;
 	/* padding: 0px 30px 20px 30px; */
 }
 main section h1 {
 	font-size: 150%;
-	padding-top: .5em;
-	padding-bottom: .25em;
+/* 	padding-top: .5em;
+	padding-bottom: .25em; */
 	margin-left: 15px;
 	font-weight: bolder;
 }
-main section h2 {
+main section h1.highlight {
+	font-size: 135%;
+	font-weight: bolder;
+	color: #800000;
+}
+main section .description{
+	margin-left: 15px;
+}
+main section div#table_lunch{
+	margin-top: 15px;
+}
+main section table{
+	width:85%;
+	vertical-align: middle;
+	margin: 5px;
+	border-collapse: collapse;
+}
+#lst_col,#fst_col{
+	width: 15%;
+}
+
+main section table tr th{
+	font-weight: bolder;
+}
+main section table tr th,td{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+main section table thead, tbody, tfoot{
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+#lst_row{
+	border-top: 2px solid #800000;
+	font-weight: bolder;
+}
+td[colspan]{
+	text-align: right;
+	font-weight: bolder;
+}
+td[rowspan]{
+	vertical-align: middle;
+}
+tbody tr:nth-child(2){
+	border-bottom: 2px solid #800000;
+}
+thead th:nth-last-child(2), tbody td:nth-last-child(2),thead th:nth-last-child(3),tbody td:nth-last-child(3){
+	text-align:left;
+}
+/* main section h2 {
 	font-size: 130%;
 	font-weight: bolder;
 	margin: 5px 0px 5px 18px;
-}
+} */
 /* main section article{
 	padding: .5em 0em;
 	margin-left: 15px;
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
 } */
-main section article h2{
+/* main section article h2{
 	padding-top: 0px;
 	margin-left: 0px;
 }
@@ -176,9 +231,9 @@ main section article img{
 	margin-right: 10px;
 }
 main section article #more{margin: 15px auto;}
-main section div ul{margin-bottom: 30px;}
+main section div ul{margin-bottom: 30px;} */
 main aside{
-	width: 35%;
+	width: 30%;
 	/*max-width: 215px;*/
 	float: right;
 	/* padding: auto; */
@@ -220,7 +275,7 @@ div.speakers {
 	margin-left: 20px;
 	margin-top: 5px;
 }
-p.description{margin: 20px;}
+
 /* blockquote{
 	font-style: italic;
 	padding: 5px 40px;
