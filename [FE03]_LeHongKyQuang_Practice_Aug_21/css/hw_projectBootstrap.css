@@ -51,3 +51,18 @@ body{background:#000;}
 	padding:auto;
 	margin: auto;
 } */
+[name="form-left"] input{
+	float: left;
+	width: 42%;
+	margin-bottom: 20px;
+}
+.mail{
+	margin-left: 16%;
+}
+.rform, .lform{
+	margin: 0px auto;
+}
+.rform p{
+	margin: 8px auto;
+	font-size: 85%;
+}
