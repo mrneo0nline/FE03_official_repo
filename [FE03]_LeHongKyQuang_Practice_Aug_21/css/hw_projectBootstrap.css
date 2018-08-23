@@ -34,3 +34,20 @@ body{background:#000;}
 	background:#1bbc9b;
 	color:#fff;
 }
+.bg_img{
+	background: url('../images/b_ground.jpg') no-repeat;
+}
+.learnmore{
+	background-color: #1bbc9b;
+	font-size: 75%;
+}
+.blue_bg{
+	background-color: #1bbc9b;
+}
+.white_bg{
+	background-color: #fff;
+}
+/* section div{
+	padding:auto;
+	margin: auto;
+} */
