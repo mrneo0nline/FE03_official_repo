@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang=en>
+	<head>
+	<title> San Joaquin Valley Town Hall</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Doing the test...!">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> -->
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_12_cw.css">
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="SlickNav/dist/slicknav.css"/>
+	<script src="SlickNav/dist/jquery.slicknav.min.js"></script> -->
+	</head>
+	<body>
+		<form label="Regis_Info" action="post">
+			<fieldset>
+				<legend>Registration Information</legend>
+					<label for="email">Email:</label>
+					<input type="email" placeholder="Abc123@gameloft.com"></input>
+					<br>
+					<label for="password">Password:</label>
+					<input type="password" placeholder="Your password"></input>
+					<br>
+					<label for="verify_password">Verify Password:</label>
+					<input type="password" placeholder="Verify Your password" required></input>
+			</fieldset>
+			<fieldset>
+				<legend>Member Information</legend>
+					<label for="firstname" name="firstname" required>First Name:</label>
+					<input type="text" placeholder="Input your First Name"></input>
+					<br>
+					<label for="lastname" name="lastname" required>Last Name:</label>
+					<input type="text" placeholder="Input your Last Name"></input>
+					<br>
+					<label for="address" name="address">Address:</label>
+					<input type="text"></input>
+					<br>
+					<label for="city" name="city" required>City:</label>
+					<input type="text"></input>
+					<br>
+					<label for="state" name="state" required>State:</label>
+					<input type="text" placeholder="2 character code"></input>
+					<br>
+					<label for="zipcode" name="zipcode" required>ZIP Code:</label>
+					<input type="text" placeholder="5 or 9 digits"></input>
+					<br>
+					<label for="pNumber" name="pNumber">Phone Number:</label>
+					<input type="text" placeholder="999-999-999"></input>
+			</fieldset>
+			<fieldset>
+				<legend>Membership Information</legend>
+					<label for="mbType" name="mbType">Membership Type:</label>
+					<select name="membershipType">
+						<option value="newbie">Newbie</option>
+						<option value="ju1">Junior 1</option>
+						<option value="ju2">Junior 2</option>
+						<option value="sen">Senior</option>
+						<option value="lead">Lead</option>
+						<option value="...">...</option>
+					</select>
+					<br>
+					<label for="start_date" name="start_date">Starting Date:</label>
+					<input type="date" required></input>
+					<br>
+					<label for="no_tickets" name="no_tickets">Tickets for Guests:</label>
+					<input type="text" value="2"></input>
+			</fieldset>
+			<fieldset>
+				<legend>Submit Your Membership</legend>
+					<p><input type="submit" value="Submit"></input>
+					<input type="reset" value="Reset Fields"></input></p>
+			</fieldset>
+		</form>
+	</body>
+</html>

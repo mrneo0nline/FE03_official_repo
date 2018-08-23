@@ -1,0 +1,26 @@
+$background-color: #fff;
+$text-size: 16px;
+$font-face: helvetica, sans-serif;
+$margin: 1em;
+
+body {
+	background: $background-color;
+	font-size: $text-size;
+	font-family: $font-face;
+	margin: $margin;
+ }
+
+ body {
+	background: $background-color;
+	font-size: $text-size;
+	font-family: $font-face;
+	margin: $margin;
+ }
+ h1 {
+	font-size: 36px;
+	font-family: georgia, serif;
+ }
+ h2 {
+	font-size: $text-size;
+	font-family: $font-face;
+ }
