@@ -1,0 +1,15 @@
+{
+  "name": "aug_21",
+  "version": "1.0.0",
+  "description": "First compilation Scss to css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "keywords": [
+    "fe03"
+  ],
+  "author": "quang le hong ky",
+  "license": "UNLICENSED"
+}
