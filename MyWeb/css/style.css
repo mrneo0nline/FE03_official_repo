@@ -1,0 +1,26 @@
+*{margin:0 ;padding:0;}
+h1,h2,h3,h4,h5,h6,ul,li,p{margin: 0;padding:0px;}
+li{list-style-type: none;float:left;}
+a{text-decoration: none;color:#000;}
+a:hover{text-decoration: none;}
+.row{margin:0px;padding:0px;}
+
+.header_row{
+  background-image: url("../images/bg-header.jpg");
+}
+nav ul li{
+  list-style-type: none;
+  float: left;
+  margin: 0px 15px;
+  font-size: 90%;
+  padding: 40px 20px;
+}
+.selected{
+  background-image: url("../images/bg-nav-selected.png")
+}
+.body_rows{
+  background-image: url("../images/bg-body.jpg");
+}
+.footer_rows{
+  background-image: url("../images/bg-footer.png")
+}
