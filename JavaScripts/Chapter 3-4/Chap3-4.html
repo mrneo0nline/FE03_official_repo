@@ -157,22 +157,51 @@
 			</div> -->
 
 			<div id="ex7" class="card pl-2 py-3 my-4 bg-success text-light rounded border-dark">
+				<p><u>Ex7:</u> 7. Create an application to manage student’s information as below:<br>- Create variables to save a
+					student’s information like: studentCode, studentName, studentAge, studentSex and set value for them.<br>- Print
+					student’s information to screen.<br>- Edit program to permit user inputs data from keyboard.<br>- Edit program to
+					permit user inputs a list of student from keyboard until “esc” key pressed.</p>
+				<table id="ex7.1">
+					<!-- <tr>
+						<th>Code</th>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Gender</th>
+					</tr>
+					<tr>
+						<td>Code</td>
+						<td>Name</td>
+						<td>Age</td>
+						<td>Gender</td>
+					</tr> -->
+				</table>
 				<script>
-					var practice7 =
-						"<p><u>Ex5:</u> Write a program to calculate sum of first 50 integer number.</p>";
-					var sum = 0;
-
-					for (var i = 0; i < 50; i++)
-					// for(var i = 1; i <= 50; i++)
-					{
-						sum += i;
+					// var practice7 =
+					// 	"<p><u>Ex7:</u> Create an application to manage student’s information as below:<br>-	Create variables to save a student’s information like: studentCode, studentName, studentAge, studentSex and set value for them.<br>- Print student’s information to screen.<br>- Edit program to permit user inputs data from keyboard.<br>- Edit program to permit user inputs a list of student from keyboard until “esc” key pressed.</p>";
+					/* function keyCode(event) {
+						var x = event.keyCode;
+						if (x == 27) {
+							alert("You pressed the Escape key! The input will be stop then!");
+						}
+					} */
+						
+					
+					while (KeyboardEvent !== 27) {
+						var studentCode = prompt("Input student ID/ Code:");
+						var studentName = prompt("Input student Full name:");
+						var studentAge = prompt("Input student Age:");
+						var studentSex = prompt("Input student Gender:");
+						var studentInfo = "<tr> <th>Code</th> <th>Name</th> <th>Age</th> <th>Gender</th> </tr> <tr> <td>" + studentCode +
+							"</td> <td>" + studentName + "</td> <td>" + studentAge + "</td> <td>" + studentSex + "</td> </tr>";
+						$("ex7.1").innerHTML = studentInfo;
 					}
-					var resultSum = "<p>Sum of first 50 integer numbers = 0 + 1 + 2 + ... + 49 = " + sum + "</p>";
-					// var resultSum = "<p>Sum of first 50 integer numbers = 1 + 2 + 3 + ... + 50 = " + sum + "</p>";
-					$("ex7").innerHTML = practice5 + resultSum;
+
+
+
+
+					// $("ex7.1").innerHTML = studentInfo;
 				</script>
 			</div>
-
 
 		</div>
 
